@@ -35,8 +35,8 @@ module.exports = createCoreController('api::order.order', ({ strapi }) => ({
                 payment_method_types: ["card"],
                 customer_email: email,
                 mode: "payment",
-                success_url: "http://localhost:3000/checkout/success",
-                cancel_url: "http://localhost:3000/checkout/cancel",     //can set up a cancel order page
+                success_url: "https://urchin-app-nbufh.ondigitalocean.app/checkout/success",
+                cancel_url: "https://urchin-app-nbufh.ondigitalocean.app/checkout/cancel",     //can set up a cancel order page
                 line_items: lineItems
             });
             
